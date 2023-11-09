@@ -21,11 +21,11 @@ private:
 int main() {
 vector<Estudiante> estudiantes;
 
-    estudiantes.push_back(Estudiante("Juan", 5));
-    estudiantes.push_back(Estudiante("Maria", 6));
-    estudiantes.push_back(Estudiante("Pedro", 5));
-    estudiantes.push_back(Estudiante("Luis", 4));
-    estudiantes.push_back(Estudiante("Ana", 6));
+    estudiantes.push_back(Estudiante("Juan", 7));
+    estudiantes.push_back(Estudiante("Mario", 6));
+    estudiantes.push_back(Estudiante("Antonio", 5));
+    estudiantes.push_back(Estudiante("Mauricio", 4));
+    estudiantes.push_back(Estudiante("Alberto", 6));
 
     cout << "Grados disponibles:\n";
     for (const Estudiante& estudiante : estudiantes) {
