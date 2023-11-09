@@ -9,8 +9,12 @@ private:
     string Grado;
 
 public:
-    Estudiante (string Nombre, int Edad, string Grado) : Nombre(Nombre), Edad(Edad), Grado(Grado) {
+    Estudiante (string Nomb, int Ed, string Gr) : Nombre(Nomb), Edad(Ed), Grado(Gr) {}
 
+    void mostrar_info() {
+        cout << "Nombre: " << Nombre << endl;
+        cout << "Edad: " << Edad << " anos" << endl;
+        cout << "Grado: " << Grado << endl;
     }
 };
 
