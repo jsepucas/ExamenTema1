@@ -7,3 +7,11 @@ int divide(int x, int y) {
     }
     return x / y;
 }
+
+int main() {
+    int num, denom;
+    cout << "Introduzca el numerador: "
+    cin >> num;
+    cout << "Introduzca el denominador: "
+    cin >> denom;
+}
