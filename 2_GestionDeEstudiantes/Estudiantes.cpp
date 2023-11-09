@@ -7,6 +7,8 @@ private:
     string Nombre;
     int Edad;
     string Grado;
+
+public:
 };
 
 
