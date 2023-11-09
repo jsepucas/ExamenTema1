@@ -35,3 +35,15 @@ private:
     string fecha;
     string estado;
 };
+
+int main() {
+    RegistroAsist asistencia1("2023-11-01", "Tarde");
+    RegistroAsist asistencia2("2023-11-02", "Falta");
+    RegistroAsist asistencia3("2023-11-03", "Tarde");
+
+    asistencia1.mostrar_asistencia();
+    asistencia2.mostrar_asistencia();
+    asistencia3.mostrar_asistencia();
+
+    return 0;
+}
