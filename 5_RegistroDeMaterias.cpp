@@ -25,10 +25,10 @@ private:
 };
 
 int main() {
-    Estudiante estudiante("Juan");
+    Estudiante estudiante("Paco");
 
-    estudiante.registrar_materia("Matematicas");
-    estudiante.registrar_materia("Fisica");
+    estudiante.registrar_materia("Algebra");
+    estudiante.registrar_materia("Lengua");
     estudiante.registrar_materia("Programacion");
 
     estudiante.listar_materias();

@@ -21,7 +21,7 @@ int main() {
     } catch (const char* mensaje) {
         cout << "Excepción capturada: " << mensaje << endl;
     }
-        cout << "El programa continua aun habiendo ocurrido la excepciun." << endl;
+        cout << "El programa continua aun habiendo ocurrido la excepcion." << endl;
 
 
 return 0;
