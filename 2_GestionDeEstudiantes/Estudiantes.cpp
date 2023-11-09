@@ -18,5 +18,9 @@ public:
     }
 };
 
-
+int main() {
+    Estudiante estudiante1("Paco López", 20, "Primero de la ESO");
+    estudiante1.mostrar_info();
+    return 0;
+}
 
