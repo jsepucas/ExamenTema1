@@ -8,4 +8,8 @@ int main() {
     cout<< "Segundo numero: ";
     cin>>dos;
 
+    int suma = uno + dos;
+    cout<< "La suma de los numeros introducidos es: "<<suma;
+
+    return 0;
 }
