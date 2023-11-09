@@ -9,6 +9,9 @@ private:
     string Grado;
 
 public:
+    Estudiante (string Nombre, int Edad, string Grado) : Nombre(Nombre), Edad(Edad), Grado(Grado) {
+
+    }
 };
 
 
