@@ -37,9 +37,9 @@ private:
 };
 
 int main() {
-    RegistroAsist asistencia1("2023-11-01", "Tarde");
-    RegistroAsist asistencia2("2023-11-02", "Falta");
-    RegistroAsist asistencia3("2023-11-03", "Tarde");
+    RegistroAsist asistencia1("2023-2-01", "Tarde");
+    RegistroAsist asistencia2("2023-2-02", "Falta");
+    RegistroAsist asistencia3("2023-2-03", "Tarde");
 
     asistencia1.mostrar_asistencia();
     asistencia2.mostrar_asistencia();
