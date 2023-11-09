@@ -31,9 +31,7 @@ public:
     void mostrar_asistencia() {
         cout << "Fecha de la clase: " << fecha << ", Estado de asistencia: " << estado << endl;
     }
-    int main() {
-        RegistroAsistencia asistencia1("2023-11-07", "Tardanza");
-        RegistroAsistencia asistencia2("2023-11-08", "Falta");
-        RegistroAsistencia asistencia3("2023-11-09", "Asistio");
-
-    };
+private:
+    string fecha;
+    string estado;
+};
