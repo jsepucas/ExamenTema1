@@ -55,7 +55,7 @@ Respuesta 2: El patrón RAII en C++ es crucial porque maneja la liberación auto
 Bibliografía: 
    - https://www.programarya.com
    - https://blog-dev.educacionit.com/2018/05/21/programacion-orientada-a-objetos-vs-programacion-estructurada/
-   - También he usado ChatGPT
+   - También he usado ChatGPT y Copilot
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
